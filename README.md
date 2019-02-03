@@ -21,3 +21,22 @@ sudo apt-get install python3-tk
 ```
 
 1. https://matplotlib.org/tutorials/introductory/usage.html#what-is-a-backend
+
+## Projects
+
+The top level directories is the Udacity course, the subdirs are the lessons.
+
+The main entrypoint for the project will be named main.py:
+
+```
+./main.py
+```
+
+## Datasets
+
+If a project requires an external dataset you'll need to initialize the
+project's tools module to download it.  From the project root:
+
+```
+python -m tools
+```
